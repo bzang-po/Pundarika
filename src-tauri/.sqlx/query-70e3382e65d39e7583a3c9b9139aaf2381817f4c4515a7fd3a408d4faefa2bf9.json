@@ -1,0 +1,12 @@
+{
+  "db_name": "SQLite",
+  "query": "\n            delete from texts\n            where\n                id = $1\n            ",
+  "describe": {
+    "columns": [],
+    "parameters": {
+      "Right": 1
+    },
+    "nullable": []
+  },
+  "hash": "70e3382e65d39e7583a3c9b9139aaf2381817f4c4515a7fd3a408d4faefa2bf9"
+}

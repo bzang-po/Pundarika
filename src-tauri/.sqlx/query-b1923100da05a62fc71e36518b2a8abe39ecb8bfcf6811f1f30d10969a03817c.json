@@ -1,0 +1,62 @@
+{
+  "db_name": "SQLite",
+  "query": "\n            select\n                *\n            from\n                texts\n            order by\n                \"order\" asc\n            ",
+  "describe": {
+    "columns": [
+      {
+        "name": "id",
+        "ordinal": 0,
+        "type_info": "Integer",
+        "origin": {
+          "Table": {
+            "table": "texts",
+            "name": "id"
+          }
+        }
+      },
+      {
+        "name": "name",
+        "ordinal": 1,
+        "type_info": "Text",
+        "origin": {
+          "Table": {
+            "table": "texts",
+            "name": "name"
+          }
+        }
+      },
+      {
+        "name": "order",
+        "ordinal": 2,
+        "type_info": "Integer",
+        "origin": {
+          "Table": {
+            "table": "texts",
+            "name": "order"
+          }
+        }
+      },
+      {
+        "name": "created_at",
+        "ordinal": 3,
+        "type_info": "Text",
+        "origin": {
+          "Table": {
+            "table": "texts",
+            "name": "created_at"
+          }
+        }
+      }
+    ],
+    "parameters": {
+      "Right": 0
+    },
+    "nullable": [
+      false,
+      false,
+      false,
+      false
+    ]
+  },
+  "hash": "b1923100da05a62fc71e36518b2a8abe39ecb8bfcf6811f1f30d10969a03817c"
+}

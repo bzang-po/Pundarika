@@ -1,0 +1,3 @@
+[env]
+# Use checked-in SQLx metadata by default; CI can override this explicitly.
+SQLX_OFFLINE = { value = "true", force = false }

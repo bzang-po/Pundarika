@@ -1,0 +1,12 @@
+{
+  "db_name": "SQLite",
+  "query": "\n                update texts\n                set\n                    \"order\" = $1\n                where\n                    id = $2\n                ",
+  "describe": {
+    "columns": [],
+    "parameters": {
+      "Right": 2
+    },
+    "nullable": []
+  },
+  "hash": "6de42b0fa5df4d2c2fd5f87bb7262f1528f880c859b50091a23037e671a7f5b1"
+}
